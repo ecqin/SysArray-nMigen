@@ -1,13 +1,13 @@
 PYTHON=python3
-_sim_out/systolic_array.vcd: testbench.py
-	$(PYTHON) testbench.py
+_sim_out/test.vcd: test/tb_pysim.py
+	$(PYTHON) test/tb_pysim.py
 
-_rtl_out/systolic_array.v: gen_systolic_array_rtl.py
-	$(PYTHON) gen_systolic_array_rtl.py
+_rtl_out/Systolic_Array.v: test/mk_rtl.py
+	$(PYTHON) test/mk_rtl.py
 
-test: _sim_out/systolic_array.vcd
+test: _sim_out/test.vcd
 
-rtl:_rtl_out/systolic_array.v
+rtl: _rtl_out/Systolic_Array.v
 
 clean:
 	rm -rf _sim_out _rtl_out

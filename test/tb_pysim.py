@@ -1,7 +1,12 @@
-import os
 from nmigen import *
 from nmigen.back.pysim import Simulator, Delay, Settle
 import numpy as np
+import os, sys
+PACKAGE_PARENT = '..'
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
+from src.systolic_array import Systolic_Array
+
 from src.systolic_array import Systolic_Array
 
 weights= np.array([

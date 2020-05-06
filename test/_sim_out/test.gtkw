@@ -1,0 +1,28 @@
+[dumpfile] "/Users/yehowshua/git/SysArray-nMigen-Cocotb/test/_sim_out/test.vcd"
+[dumpfile_size] 24985
+[treeopen] top.
+@22
+top.U$0.L_in_row_0[15:0]
+top.U$0.L_in_row_1[15:0]
+top.U$0.L_in_row_2[15:0]
+top.U$0.L_in_row_3[15:0]
+top.U$0.Top_in_col_0[15:0]
+top.U$0.Top_in_col_1[15:0]
+top.U$0.Top_in_col_2[15:0]
+top.U$0.Top_in_col_3[15:0]
+top.U$0.SUM_out_r0_c0[15:0]
+top.U$0.SUM_out_r0_c1[15:0]
+top.U$0.SUM_out_r0_c2[15:0]
+top.U$0.SUM_out_r0_c3[15:0]
+top.U$0.SUM_out_r1_c0[15:0]
+top.U$0.SUM_out_r1_c1[15:0]
+top.U$0.SUM_out_r1_c2[15:0]
+top.U$0.SUM_out_r1_c3[15:0]
+top.U$0.SUM_out_r2_c0[15:0]
+top.U$0.SUM_out_r2_c1[15:0]
+top.U$0.SUM_out_r2_c2[15:0]
+top.U$0.SUM_out_r2_c3[15:0]
+top.U$0.SUM_out_r3_c0[15:0]
+top.U$0.SUM_out_r3_c1[15:0]
+top.U$0.SUM_out_r3_c2[15:0]
+top.U$0.SUM_out_r3_c3[15:0]
