@@ -3,6 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=vim,macos,python
 _rtl_out/*
 _sim_out/*
+.vscode/*
 ### macOS ###
 # General
 .DS_Store
